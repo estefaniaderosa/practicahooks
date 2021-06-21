@@ -74,7 +74,7 @@ h1{
         h1{
             font-size: 29px;
             font-weight: 300;
-            color: rgb(131, 109, 131);
+            color: rgba(131, 109, 131, 0.918);
         }
         .container{
             display: flex;
