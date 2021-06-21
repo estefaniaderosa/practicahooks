@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: 'Roboto';
+    background:  linear-gradient(to bottom,rgba(254, 254, 254, 0.44),rgba(254, 254, 254, 0.44)),url('https://i.pinimg.com/564x/bf/23/6c/bf236c9147b7349a2e567ba5f472a087.jpg');
+    background-size:contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    font-weight: 100;
+    font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app{
+    background-color: rgba(255, 255, 255, 0.562);
+    margin-top: 150px;
+    padding: 50px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    background-color: rgb(244, 226, 244);
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    border-radius: 15%;
+    }
+
+.button{
+    font-weight: bold;
+    background-color: rgb(156, 214, 214);
+    padding: 15px;
+    border-radius: 10%;
+    transition: ease-in-out all 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover{
+    background-color: rgb(173, 235, 235);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.count{
+    background-color: rgb(235, 195, 235);
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+.input{
+    width:700px;
+    height:50px;
+    font-size: 40px;
+    font-weight: 100;
+    border: 1px solid rgb(235, 195, 235);;
+    transition: ease-in-out all .1s;
+}
+
+.input:focus
+ {
+    outline: none;
+    border: 2px solid rgb(235, 195, 235);;
 }
