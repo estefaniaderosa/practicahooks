@@ -5,6 +5,7 @@ body{
     font-family: 'Roboto';
     background:  linear-gradient(to bottom,rgba(254, 254, 254, 0.44),rgba(254, 254, 254, 0.44)),url('https://i.pinimg.com/564x/bf/23/6c/bf236c9147b7349a2e567ba5f472a087.jpg');
     background-size:contain;
+    box-sizing: border-box;
 }
 
 h1{
@@ -58,7 +59,7 @@ h1{
     height:50px;
     font-size: 40px;
     font-weight: 100;
-    border: 1px solid rgb(235, 195, 235);;
+    border: 1px solid rgb(235, 195, 235);
     transition: ease-in-out all .1s;
 }
 
@@ -67,3 +68,32 @@ h1{
     outline: none;
     border: 2px solid rgb(235, 195, 235);;
 }
+
+@media only screen and (max-width: 400px) {
+
+        h1{
+            font-size: 29px;
+            font-weight: 300;
+            color: rgb(131, 109, 131);
+        }
+        .container{
+            display: flex;
+            width: 110%;
+        }
+
+        .input{
+            width: 90%;
+            height:35px;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        .app-container{
+            width:100%;
+        }
+
+        .app{
+            width: 100%;
+            margin-top:60px;   
+        }
+  }
