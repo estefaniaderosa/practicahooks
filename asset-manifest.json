@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/practicahooks/static/css/main.726b8847.chunk.css",
+    "main.js": "/practicahooks/static/js/main.db1e9f65.chunk.js",
+    "main.js.map": "/practicahooks/static/js/main.db1e9f65.chunk.js.map",
+    "runtime-main.js": "/practicahooks/static/js/runtime-main.19376e20.js",
+    "runtime-main.js.map": "/practicahooks/static/js/runtime-main.19376e20.js.map",
+    "static/js/2.bb4280fc.chunk.js": "/practicahooks/static/js/2.bb4280fc.chunk.js",
+    "static/js/2.bb4280fc.chunk.js.map": "/practicahooks/static/js/2.bb4280fc.chunk.js.map",
+    "index.html": "/practicahooks/index.html",
+    "static/css/main.726b8847.chunk.css.map": "/practicahooks/static/css/main.726b8847.chunk.css.map",
+    "static/js/2.bb4280fc.chunk.js.LICENSE.txt": "/practicahooks/static/js/2.bb4280fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19376e20.js",
+    "static/js/2.bb4280fc.chunk.js",
+    "static/css/main.726b8847.chunk.css",
+    "static/js/main.db1e9f65.chunk.js"
+  ]
+}
