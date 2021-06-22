@@ -56,6 +56,8 @@ h1{
     background-color: rgb(254, 246, 160);
 }
 
+.button::selection { background: transparent; }
+
 .count{
     /* background-color: rgba(235, 195, 235, 0);
     padding: 5px 5px; */
