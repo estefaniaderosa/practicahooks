@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import './App.css'
 
 const Counter = () => {
     const [count,setCount] = useState (0)
-    const [jokeTitle,setJoketitle] = useState ('Count me in :)')
+    const [subTitle,setSubtitle] = useState ('Count me in :)')
 
     const increaseCount = (count) => {
         const newCount = count+1;
         return (
             setCount(newCount),
-            setJoketitle('Count me in :)')
+            setSubtitle('Count me in :)')
         )
     }
 
@@ -18,20 +18,24 @@ const Counter = () => {
         
         return (
          setCount(newCount),
-         setJoketitle('Count me out :(')
+         setSubtitle('Count me out :(')
         );
     }
 
+    useEffect(() => {
+        document.title =  `Count is ${count}`
+    },[count])
+
     return (
         <>
-        <h1>{jokeTitle}</h1>
+        <h1>{subTitle}</h1>
         <div className="container"> 
-           <p className="button" onClick={e=>decreaseCount(count)}> Decrease </p> 
+           <p className="button" onClick={e=>decreaseCount(count)}> - </p> 
            <p className="count"> {count} </p>
-           <p className="button" onClick={e=>increaseCount(count)}> Increase </p> 
+           <p className="button" onClick={e=>increaseCount(count)}> + </p> 
         </div>
         </>
     )
 }
 
-export default Counter
+export default Counter;

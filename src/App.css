@@ -11,6 +11,8 @@ body{
 h1{
     font-weight: 100;
     font-size: 50px;
+    color: rgb(58, 56, 56);
+    margin-bottom: 30px;
 }
 
 .app{
@@ -27,40 +29,49 @@ h1{
     display: flex;
     justify-content:center;
     align-items:center;
+ 
 }
 .container{
     background-color: rgb(244, 226, 244);
     display: flex;
     width: 700px;
     justify-content: space-around;
-    border-radius: 15%;
+    align-items: center;
+    border-radius: 5px;
+    
     }
 
 .button{
     font-weight: bold;
-    background-color: rgb(156, 214, 214);
-    padding: 15px;
+    font-size: 30px;
+    background-color: rgb(247, 239, 147);
+    padding: 10px 20px;
     border-radius: 10%;
     transition: ease-in-out all 0.3s;
+    color: rgb(220, 157, 249);
+  
 }
 
 .button:hover{
-    background-color: rgb(173, 235, 235);
+    background-color: rgb(254, 246, 160);
 }
 
 .count{
-    background-color: rgb(235, 195, 235);
-    padding: 15px 25px;
+    /* background-color: rgba(235, 195, 235, 0);
+    padding: 5px 5px; */
     font-weight: bold;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
 }
 
 .input{
     width:700px;
     height:50px;
     font-size: 40px;
-    font-weight: 100;
     border: 1px solid rgb(235, 195, 235);
     transition: ease-in-out all .1s;
+    color: rgb(235, 195, 235);
+    margin-bottom: 40px;
 }
 
 .input:focus
